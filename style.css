@@ -1,0 +1,40 @@
+body{
+    background:#111;
+    color:white;
+    font-family:arial;
+    margin:0;
+}
+
+header{
+    text-align:center;
+    padding:20px;
+    background:black;
+}
+.logo{
+    color:red;
+}
+nav a{
+    color:white;margin:10px;
+    text-decoration:none;
+}
+
+.gallery{
+    display:flex;
+    gap:20px;
+    justify-content:center;
+}
+.car{
+    width: 250px;
+    transition:0.5s;
+}
+
+.car:hover{
+    transform:scale(1.1);
+}
+
+button{
+    background:red;
+    color:white;
+    padding: 10px;
+    border:none;
+}
